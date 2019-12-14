@@ -55,7 +55,7 @@ for i in range(min(len(you_path), len(san_path))):
         distance = len(you_path[i:] + san_path[i:]) - 2
         break
 
-print(len(distance) - 2)
+print(distance)
 
 
 
